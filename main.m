@@ -304,7 +304,7 @@ while 1
 
     posErr = norm([Xu Yu Zu]-GT); % positioning error to given target position
 
-    if norm(deltax(:,Iter)) < 1e-4
+    if norm(deltax(:,Iter)) < 1
         break
     end
     Iter = Iter+1;
