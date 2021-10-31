@@ -16,7 +16,7 @@ Initial position in earth-centred-earth-fixed (ECEF) coordinates (in meter) is *
 
 With the satellite coordinates, measured pseudo-ranges, and the estimated receiver position, the most probable position of the receiver can now be found. In a least squares adjustment (Hofmann-Wellenhof et al. 2001, p. 256), the computed ranges, observed ranges, and the receiver clock bias are applied to a set of linearized model equations (equal to the number of satellites involved) to find the final receiver position. This solution is an approximation, so an iterative approach is required whereupon the most recent solution becomes the initial guess, and the process is repeated until the desired accuracy is obtained. If more than four satellites are being observed, the problem is over-determined and can be solved in a least squares sense to yield an optimal receiver location.
 
-After several iteration, the ECEF solution (in meter) is **[-2700435.72044225	-4292570.14216663	3855296.46322018]**. In WGS84 coordinates format with latitude (degree), longitude (degree), and altitude(meter), it is **[37.4281°, -122.1738°, 106.6356m]**. The estimated receiver clock offset is **519468.902m (0.00173276s)**. The estimated position error is **45.597m**.
+After several iteration, the ECEF solution (in meter) is **[-2700419.67455933	-4292538.83987527	3855266.39572346]**. In WGS84 coordinates format with latitude (degree), longitude (degree), and altitude(meter), it is **[37.4281°, -122.1738°, 60.5360m]**. The estimated receiver clock offset is **519468.902m (0.00173276s)**. The estimated position error is **29.11752m**.
 
 If the code excuted successfully, following figures will be shown.
 
